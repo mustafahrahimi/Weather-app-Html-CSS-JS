@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="search-box">
+            <input type="text" placeholder="Ange stadens namn" spellcheck="false">
+            <button><img src="images/search.png"></button>
+        </div>
+
+        <div class="weather-info">
+            <img src="images/sweating.png" class="weather-icon">
+            <div class="conditions">
+                <h1 class="condition">Soligt</h1>
+                <h1 class="temperature">22 &#8451;</h1>
+            </div>
+            <h2 class="city">Stockholm</h2>
+            <div class="details">
+                <div class="details-column">
+                    <img src="images/humidity.png">
+                    <div class="column-info">
+                        <p class="humidity">50 &#37</p>
+                        <p>Fuktighet</p>
+                    </div>
+                </div>
+
+                <div class="details-column">
+                    <img src="images/wind.png">
+                    <div class="column-info">
+                        <p class="wind">15 km/h</p>
+                        <p>Vindhastighet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
